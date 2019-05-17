@@ -1,0 +1,20 @@
+{
+    "name": "jacky.lin/hellocomposer",
+    "description": "My first Composer project",
+    "type": "modules",
+    "authors": [
+        {
+            "name": "Jacky Lin",
+            "email": "jacky.lin@104.com.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
